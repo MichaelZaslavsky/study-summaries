@@ -19,14 +19,14 @@ Also, malware could be installed on the application serves leading to attacks su
 Let's assume a Math app that allows users to perform calculations on the input.\
 The calculation is performed using an unsafe eval function.
 
-```JavaScript
+```js
 $calc = "5X5 + 2";
 print eval('return '.$calc,';');
 ```
 
 An attacker manipulates a calculation and enters a string that will result in command execution.
 
-```JavaScript
+```js
 $calc = "system('ls')";
 print eval('return '.$calc,';');
 ```
