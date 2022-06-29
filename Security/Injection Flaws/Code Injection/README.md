@@ -28,7 +28,7 @@ An attacker manipulates a calculation and enters a string that will result in co
 
 ```JavaScript
 $calc = "system('ls')";
-print eval('return '.$calc.';');
+print eval('return '.$calc,';');
 ```
 
 As a consequence, the ls command is executed and the directory contents are returned to the attacker.
