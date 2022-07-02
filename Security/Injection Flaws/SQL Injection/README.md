@@ -1,10 +1,10 @@
 # SQL Injection
 
-## What are SQL Injections?
+## What are SQL Injections
 SQL Injection occurs when an attacker can inject SQL queries by the input data of an application.\
 A successful attack allows an attacker to access and manipulate the backend database.
 
-## What causes SQL Injections?
+## What causes SQL Injections
 User input is used to to build queries dynamically. If this input is not first validated the query interpreter can be tricked into running arbitrary SQL queries or commands.\
 To prevent SQL injection developers should use parameterized queries.
 

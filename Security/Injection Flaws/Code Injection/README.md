@@ -1,11 +1,11 @@
 # Code Injection
 
-## What is Code Injection?
+## What is Code Injection
 It's a general term given to vulnerabilities that allow a user to inject code that gets interpreted and executed by the application.\
 Code injection is limited to the capabilities of the injected language.\
 It can happen both on the server and on the client side.
 
-## What causes Code Injection?
+## What causes Code Injection
 These vulnerabilities occur when untrusted input is used in a context where it can be treated as actual code.\
 The input is not properly validated or encoded before being used.
 
