@@ -33,7 +33,7 @@ print eval('return '.$calc,';');
 
 As a consequence, the ls command is executed and the directory contents are returned to the attacker.
 
-## Preventing Code Injection
+## How to prevent Code Injection
 - Developers should never trust user input!
 - Use parameterized queries and apply least privilege, such as a read-only user on both the client and the server side.
 - Apply application-wide filters or sanitization on all user-provided input through filtering, encoding, and allowlist validation. Libraries exist for this, in different frameworks.\
@@ -41,7 +41,6 @@ And remember to check not only GET and POST parameters, but Cookies and other HT
 - If possible, don't let functions execute or interpret user input directly.
 
 ## More info
-
 Relevant material published by the Open Web Application Security Project (OWASP):
 
 - Vulnerability overview: https://owasp.org/www-community/attacks/Code_Injection
