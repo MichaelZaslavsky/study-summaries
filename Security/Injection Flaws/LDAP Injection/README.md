@@ -35,7 +35,7 @@ Sensitive data could be exposed leading to privacy issues.
    The submitted input changes the logic of the query so that the wildcard statement queries all users in the LDAP tree.\
    The vulnerability is exploited to gain detailed information about all users in the LDAP tree resulting in a major bridge of security.
 
-## Preventing LDAP Injection
+## How to prevent LDAP Injection
 - User input that is being used as part of an LDAP query should be sanitized first. This includes GET and POST parameters, cookies, and other HTTP headers.
 - Always use framework-provided function when available and make use of escaped variables in LDAP queries.
 - Use LDAP Injection resistant frameworks, automatic LDAP encoding, and framework provided functions, where possible.

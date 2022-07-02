@@ -14,7 +14,6 @@ All data could be exposed or even deleted. Furthermore, access to the hosting sy
 As a result, any altered data such as balance and transaction information could cause repudiation issues.
 
 ## Example
-
 Developers should never contacatenate user-controllable input with application SQL to form the query ssent to the database.
 ```C#
 string sql = $@"
@@ -37,14 +36,12 @@ string sql = @"
             AND U.LastName = @LastName;"
 ```
 
-## More tips for preventing SQL Injections
-
+## How to prevent SQL Injections
 - Use allowlist validation on all user input. This ensures all input is checked against an allowed list of input parameters, before they are processed in the code.
 - Apply the least privilege principle to all backend database users.
 - Consider GET and POST parameters, Cookies, and other HTTP headers.
 
 ## More info
-
 Relevant material published by the Open Web Application Security Project (OWASP):
 
 - Vulnerability overview: https://owasp.org/www-community/attacks/SQL_Injection
