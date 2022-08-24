@@ -14,13 +14,13 @@ SQL Injection, Cross-Site Scripting, or Remote Code Execution could result due t
 
 ## Example
 Let's assume an online shop that uses serialization to save the shopping cart of a user.\
-The user saves the state of the shopping cart and receives the following serialized object from the website.\
+The user saves the state of the shopping cart and receives the following serialized object from the website.
 
 ```
 {"productId": 5, "amount": "3", "price": "39.99"}
 ```
 
-The user may alter the serialized object and change the price to 1.\
+The user may alter the serialized object and change the price to 1.
 
 ```
 {"productId": 5, "amount": "3", "price": "1.00"}
