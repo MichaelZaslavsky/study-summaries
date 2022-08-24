@@ -2,10 +2,10 @@
 
 ## What is NoSQL Injection
 NoSQL injections occur when an attacker is able to inject malicious code into a NoSQL database.\
-This is typically done through JSON and Javascript code.\
+This is typically done through JSON and Javascript code.
 
 ## What causes a NoSQL Injection
-The application makes use of NoSQL database and does not properly validate user input before using it to query the database.\
+The application makes use of NoSQL database and does not properly validate user input before using it to query the database.
 
 ## What are the impacts of NoSQL Injection
 A successful injection could allow an attacker to update, insert or delete data.\
@@ -14,7 +14,7 @@ Access to the hosting system could be gained and authentication could be bypasse
 
 ## Example
 An attacker may bypass authentication through an interception proxy and submit input values that change the query's logic.\
-A NoSQL comparison operator might be passed instead of the normal username and password.\
+A NoSQL comparison operator might be passed instead of the normal username and password.
 
 ```
 Username: { $ne: "}

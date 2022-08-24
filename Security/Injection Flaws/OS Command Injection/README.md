@@ -28,7 +28,7 @@ Which leads to the web application being unavailable.
 ## How to prevent OS Command Injections
 - Use framework-specific API calls instead of OS commands.
 - If it is not possible to use a framework, validate all user-controlled output against an allowlist before passing it to the shell.\
-  This validation should include POST and GET parameters, Cookies, and HTTP headers.\
+  This validation should include POST and GET parameters, Cookies, and HTTP headers.
 - Apply the principle of least privilege to the application.
 
 ## More info
