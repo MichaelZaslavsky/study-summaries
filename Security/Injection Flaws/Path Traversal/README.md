@@ -10,7 +10,7 @@ Though most modern browsers have some level of built-in protection against basic
 An attacker may access sensitive information, such as user passwords, private documents, etc.
 
 ## Example
-In case there is an insecure API that allows users to request image files stored in the web server by providing the filename parameter, an attacker can enter an arbitrary file from the server's file system to access sensitive data.\
+In case there is an insecure API that allows users to request image files stored in the web server by providing the filename parameter, an attacker can enter an arbitrary file from the server's file system to access sensitive data.
 
 ```
 https://myserver.com/loadfile?filename=../../etc/passwd
